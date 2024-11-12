@@ -27,4 +27,4 @@ Overall the autopilot unit ressemble the Garmin GFC500 and has these buttons:
   - Wheel: adjust the vertical speed when in VS mode, or the indicated airspeed with in IAS mode
  
 
-![Sample Image 1](https://github.com/happy12/Sim_Autopilot/blob/main/CAD_assembly_front.png)
+![Sample Image 1](https://github.com/happy12/Sim_Autopilot/blob/main/images/CAD_assembly_front.png)
