@@ -3,9 +3,9 @@ Autopilot hardware for flight simulator.
 
 The hardware consist of:
  - one PCB to hold the switches and encoders
- - one PCB to interface between the "Switch PCB" and communications with the PC, using ATMEGA32U4 with USB integration
- - Enclosure that can be 3D printed. Enclosure footprint fits into a RealSimGear cutout for a similar autopilot unit.
- - Integrates with Mobiflight, or one can write their own firmware with Arduino IDE or PlatformIO
+ - one PCB to interface between the "Switch PCB" and communications with the PC, using ATMEGA32U4 with USB integration. This pcb purpose is to avoid a spagetthi mess and make the integration tidy.
+ - Enclosure that can be 3D printed. Enclosure footprint fits into a RealSimGear cutout for a similar autopilot unit. Some parts look better when printed with an SLA process, such as raised fonts, knows, and the tiny shaft.
+ - Integrates with Mobiflight, or one can write their own firmware with Arduino IDE or PlatformIO to have the unit recognized as a joystick.
 
 Overall the autopilot unit ressemble the Garmin GFC500 and has these buttons:
 - HDG, to activate the Heading mode
