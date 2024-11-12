@@ -1,0 +1,537 @@
+{
+  "uuid": "f319f27931ab652043a28b4afe3c78af",
+  "path": "Offline/ArduinoSim_Autopilot_Multiplexer",
+  "name": "ArduinoSim_Autopilot_Multiplexer",
+  "content": "",
+  "created_at": "2024-09-13 22:25:40",
+  "updated_at": "2024-11-12 12:28:36",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ead51f09537a51c57e595f47d9eccd08",
+      "title": "SCH_ArduinoSim_Autopilot_Multiplexer",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ee1328acbf80434a84d037727e046a88": 1,
+        "0806368f73e1232ca543f14a515367b4": 1,
+        "8698f55d2b05489c9b6d911e7a0aaab0": 1,
+        "df8405e2fa0e40a984c435ad4c8d5cf3": 1,
+        "6c2bedbae9fbd358441dfb9948555b9c": 3,
+        "c6551ffd8df4e1d9edf79a5278696201": 3,
+        "55d377524912851f56d1dd9f931198e3": 1,
+        "5563491116b5449a9a46d9ad40c4d199": 2,
+        "90d0ec3862a946bb9c074e514ae2d050": 6,
+        "1bd3456c66c576c173a7e82e0ee0b8f7": 1,
+        "0c2ab79d48d66bb4d050da5138e87173": 2,
+        "edae204c3adfe7b1ce43d9a84fd98802": 1,
+        "bc9a6227f3bcf47e7aef0cdf0df60e2a": 1,
+        "9a1dab2264ee9c0dd27f0d885a0978e6": 3,
+        "64af03968d44b715a32e453482ab0beb": 1,
+        "584d673271dd43738fb1ad2dd2772015": 1,
+        "9e34a3a12e734fb1a1a54441d5eae86d": 1,
+        "a9ef61a0ade243579b136a2e1e288bfa": 1,
+        "daeee8f081904ed6be17e88b0f3458fd": 1,
+        "2d1520ae0f6cf0b6d95e17d5112228e7": 1,
+        "8db1a64c2cfd4f33b7bcfa905a1dac04": 1,
+        "75ddbce7b6934e79831b0cebbbf38ef4": 1,
+        "4f3a0919a68d4f42996ad48a0872e4d0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1uF",
+          3,
+          "C0402",
+          "C1,C8,C9",
+          {
+            "Manufacturer Part": "CL05A105KA5NQNC",
+            "Manufacturer": "SAMSUNG",
+            "Supplier": "LCSC",
+            "Supplier Part": "C52923"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C0603",
+          "C2,C4",
+          {
+            "Manufacturer Part": "CL10A106MA8NRNC",
+            "Manufacturer": "SAMSUNG(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C96446"
+          }
+        ],
+        [
+          "100nF",
+          6,
+          "C0402",
+          "C3,C5,C10,C11,C16,C28",
+          {
+            "Manufacturer Part": "CL05B104KB54PNC",
+            "Manufacturer": "SAMSUNG(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C307331"
+          }
+        ],
+        [
+          "1N5819WS",
+          1,
+          "SOD-323_L1.8-W1.3-LS2.5-RD",
+          "D2",
+          {
+            "Manufacturer Part": "1N5819WS",
+            "Manufacturer": "Guangdong Hottech",
+            "Supplier": "LCSC",
+            "Supplier Part": "C191023"
+          }
+        ],
+        [
+          "SMF05CT1G",
+          1,
+          "SOT-363_L2.0-W1.3-P0.65-LS2.1-TL",
+          "D3",
+          {
+            "Manufacturer Part": "SMF05CT1G",
+            "Manufacturer": "ON",
+            "Supplier": "LCSC",
+            "Supplier Part": "C15879"
+          }
+        ],
+        [
+          "100O",
+          1,
+          "L0805",
+          "L1",
+          {
+            "Manufacturer Part": "GZ2012D101TF",
+            "Manufacturer": "Sunlord",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1015"
+          }
+        ],
+        [
+          "PWR_RED",
+          1,
+          "LED0603-RD",
+          "PWR_ON",
+          {
+            "Manufacturer Part": "KT-0603R",
+            "Manufacturer": "KENTO",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2286"
+          }
+        ],
+        [
+          "10kO",
+          3,
+          "R0402",
+          "R1,R6,R13",
+          {
+            "Manufacturer Part": "0402WGF1002TCE",
+            "Manufacturer": "UNI-ROYAL(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25744"
+          }
+        ],
+        [
+          "22O",
+          2,
+          "R0402",
+          "R2,R5",
+          {
+            "Manufacturer Part": "0402WGF220JTCE",
+            "Manufacturer": "UNI-ROYAL(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25092"
+          }
+        ],
+        [
+          "5.1kO",
+          2,
+          "R0402",
+          "R3,R4",
+          {
+            "Manufacturer Part": "0402WGF5101TCE",
+            "Manufacturer": "UNI-ROYAL(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25905"
+          }
+        ],
+        [
+          "3.3kO",
+          1,
+          "R0402",
+          "R8",
+          {
+            "Manufacturer Part": "0402WGF3301TCE",
+            "Manufacturer": "UNI-ROYAL(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25890"
+          }
+        ],
+        [
+          "2kO",
+          1,
+          "R0402",
+          "R17",
+          {
+            "Manufacturer Part": "0402WGF2001TCE",
+            "Manufacturer": "UNI-ROYAL(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4109"
+          }
+        ],
+        [
+          "330O",
+          1,
+          "R0402",
+          "R19",
+          {
+            "Manufacturer Part": "0402WGF3300TCE",
+            "Manufacturer": "UNI-ROYAL(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25104"
+          }
+        ],
+        [
+          "TS-1187A-B-A-B",
+          1,
+          "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2",
+          "RST",
+          {
+            "Manufacturer Part": "TS-1187A-B-A-B",
+            "Manufacturer": "XKB Connectivity(????)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C318884"
+          }
+        ],
+        [
+          "ATMEGA32U4-MU",
+          1,
+          "VQFN-44_L7.0-W7.0-P0.50-BL-EP5.2",
+          "U1",
+          {
+            "Manufacturer Part": "ATMEGA32U4-MU",
+            "Manufacturer": "MICROCHIP",
+            "Supplier": "LCSC",
+            "Supplier Part": "C112161"
+          }
+        ],
+        [
+          "CD74HC4067SM96",
+          1,
+          "SSOP-24_L8.1-W5.3-P0.65-LS7.8-BL",
+          "U4",
+          {
+            "Manufacturer Part": "CD74HC4067SM96",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C98457"
+          }
+        ],
+        [
+          "TYPE-C-31-M-12",
+          1,
+          "USB-C_SMD-TYPE-C-31-M-12",
+          "USBC",
+          {
+            "Manufacturer Part": "TYPE-C-31-M-12",
+            "Manufacturer": "Rectangular Connectors - Contacts",
+            "Supplier": "LCSC",
+            "Supplier Part": "C165948"
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "OSC-SMD_3P-L3.2-W1.3-P1.2-L",
+          "X1",
+          {
+            "Manufacturer Part": "CSTNE16M0V530000R0",
+            "Manufacturer": "muRata",
+            "Supplier": "LCSC",
+            "Supplier Part": "C341521"
+          }
+        ]
+      ],
+      "updateTime": 1731443276,
+      "createTime": 1726291540,
+      "histories": [],
+      "created_at": "2024-09-13 22:25:40",
+      "updated_at": "2024-11-12 12:27:56"
+    },
+    {
+      "uuid": "00332b7ac058e5f65b2db4042d51690a",
+      "puuid": "f319f27931ab652043a28b4afe3c78af",
+      "title": "PCB_ArduinoSim_Autopilot_Multiplexer",
+      "filename": "PCB_ArduinoSim_Autopilot_Multiplexer.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "48066150b8a647fba1aa69511c80fb35": 1,
+        "0821ed6ea50c44f4909e4be7610e4198": 9,
+        "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "dd3cfd4941c4479cb7f2c598e6fde06c": 1,
+        "62a4fc4b5aa04ba480f679328de41d97": 1,
+        "bcc8ca20dcc84ccfa139b07aa569efaf": 1,
+        "2bbc230c6b904edcba9e321cd4379307": 1,
+        "fafd024f554e426eb74cf4a204aa88b0": 10,
+        "68fa7d23d2b54243b9d8fd632e0afe6e": 1,
+        "a354ea8475da49069f04c35afe3e9b76": 1,
+        "c35bad1cd8654778a92d4d3124fa62da": 1,
+        "bcc58561d22445c2b08855ecf0dba7c7": 1,
+        "7335dfa67b564d7988d09a073a20aa42": 1,
+        "1889a4c45e5b4107a2a7d2f3f3ec5da7": 1,
+        "7fac1eb0b30f4f488a1c7d37cd7f9dbb": 1,
+        "dbfca28bccab471da0c917c4d3635405": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1uF",
+          1,
+          "C0402",
+          "C1",
+          {
+            "Manufacturer Part": "CL05A105KA5NQNC",
+            "Manufacturer": "SAMSUNG",
+            "Supplier": "LCSC",
+            "Supplier Part": "C52923"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C0603",
+          "C2,C4",
+          {
+            "Manufacturer Part": "CL10A106MA8NRNC",
+            "Manufacturer": "SAMSUNG(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C96446"
+          }
+        ],
+        [
+          "100nF",
+          4,
+          "C0402",
+          "C3,C5,C10,C11",
+          {
+            "Manufacturer Part": "CL05B104KB54PNC",
+            "Manufacturer": "SAMSUNG(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C307331"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "C0402",
+          "C8,C9",
+          {
+            "Manufacturer Part": "CL05A105KA5NQNC",
+            "Manufacturer": "SAMSUNG(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C52923"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0402",
+          "C28",
+          {
+            "Manufacturer Part": "CL05B104KB54PNC",
+            "Manufacturer": "SAMSUNG(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C307331"
+          }
+        ],
+        [
+          "1N5819WS",
+          1,
+          "SOD-323_L1.8-W1.3-LS2.5-RD",
+          "D2",
+          {
+            "Manufacturer Part": "1N5819WS",
+            "Manufacturer": "Guangdong Hottech",
+            "Supplier": "LCSC",
+            "Supplier Part": "C191023"
+          }
+        ],
+        [
+          "SMF05CT1G",
+          1,
+          "SOT-363_L2.0-W1.3-P0.65-LS2.1-TL",
+          "D3",
+          {
+            "Manufacturer Part": "SMF05CT1G",
+            "Manufacturer": "ON",
+            "Supplier": "LCSC",
+            "Supplier Part": "C15879"
+          }
+        ],
+        [
+          "100O",
+          1,
+          "L0805",
+          "L1",
+          {
+            "Manufacturer Part": "GZ2012D101TF",
+            "Manufacturer": "Sunlord",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1015"
+          }
+        ],
+        [
+          "PWR_RED",
+          1,
+          "LED0603-RD",
+          "PWR_ON1",
+          {
+            "Manufacturer Part": "KT-0603R",
+            "Manufacturer": "KENTO",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2286"
+          }
+        ],
+        [
+          "10kO",
+          2,
+          "R0402",
+          "R1,R6",
+          {
+            "Manufacturer Part": "0402WGF1002TCE",
+            "Manufacturer": "UNI-ROYAL(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25744"
+          }
+        ],
+        [
+          "22O",
+          2,
+          "R0402",
+          "R2,R5",
+          {
+            "Manufacturer Part": "0402WGF220JTCE",
+            "Manufacturer": "UNI-ROYAL(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25092"
+          }
+        ],
+        [
+          "5.1kO",
+          2,
+          "R0402",
+          "R3,R4",
+          {
+            "Manufacturer Part": "0402WGF5101TCE",
+            "Manufacturer": "UNI-ROYAL(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25905"
+          }
+        ],
+        [
+          "330O",
+          1,
+          "R0402",
+          "R19",
+          {
+            "Manufacturer Part": "0402WGF3300TCE",
+            "Manufacturer": "UNI-ROYAL(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25104"
+          }
+        ],
+        [
+          "3.3kO",
+          1,
+          "R0402",
+          "R8",
+          {
+            "Manufacturer Part": "0402WGF3301TCE",
+            "Manufacturer": "UNI-ROYAL(??)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25890"
+          }
+        ],
+        [
+          "TS-1187A-B-A-B",
+          1,
+          "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2",
+          "RST1",
+          {
+            "Manufacturer Part": "TS-1187A-B-A-B",
+            "Manufacturer": "XKB Connectivity(????)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C318884"
+          }
+        ],
+        [
+          "ATMEGA32U4-MU",
+          1,
+          "VQFN-44_L7.0-W7.0-P0.50-BL-EP5.2",
+          "U1",
+          {
+            "Manufacturer Part": "ATMEGA32U4-MU",
+            "Manufacturer": "MICROCHIP",
+            "Supplier": "LCSC",
+            "Supplier Part": "C112161"
+          }
+        ],
+        [
+          "TYPE-C-31-M-12",
+          1,
+          "USB-C_SMD-TYPE-C-31-M-12",
+          "USBC1",
+          {
+            "Manufacturer Part": "TYPE-C-31-M-12",
+            "Manufacturer": "Rectangular Connectors - Contacts",
+            "Supplier": "LCSC",
+            "Supplier Part": "C165948"
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "OSC-SMD_3P-L3.2-W1.3-P1.2-L",
+          "X1",
+          {
+            "Manufacturer Part": "CSTNE16M0V530000R0",
+            "Manufacturer": "muRata",
+            "Supplier": "LCSC",
+            "Supplier Part": "C341521"
+          }
+        ]
+      ],
+      "updateTime": 1731443316,
+      "createTime": 1726291674,
+      "histories": [],
+      "created_at": "2024-09-13 22:27:54",
+      "updated_at": "2024-11-12 12:28:36"
+    }
+  ],
+  "sort": [],
+  "title": "ArduinoSim_Autopilot_Multiplexer",
+  "foldername": "ArduinoSim_Autopilot_Multiplexer",
+  "schfilename": "ArduinoSim_Autopilot_Multiplexer.json",
+  "schfilemtime": 1731443276880
+}
